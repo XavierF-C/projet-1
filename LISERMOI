@@ -1,0 +1,33 @@
+Le projet de ce robot est divisé en trois sections:
+	-la librairie
+	-le programme du premier robot, le robot effectuant le parcourt
+	-le programme du deuxième robot, le robot devant émettre les signaux infrarouges.
+
+
+Dans chacun des répertoires, on peut directement utiliser un makefile avec un terminal:
+	/librairie/makefile
+	/programmePremierRobot/makefile
+	/programmeDeuxiemeRobot/makefile
+
+Note: 	Dans la librairie, les avertissemets restants sont causés par les classes fournies.
+		Dans le programme du premier robot, l'avertissement «ignoring packed attribute because of unpacked non-POD field» semble être un bogue:
+		https://gcc.gnu.org/bugzilla/show_bug.cgi?id=58798 
+
+
+On présente la structure des répertoires:
+	librairie/
+	Tous les fichiers sont au même niveau, et le fichier librairie.h
+	est le fichier qui doit être inclus par les programmes utilisant la librairie.
+	
+	programmePremierRobot/
+		source/
+	Le répertoire contient le programme principal et un répertoire source qui comprend
+	toutes les classes utilisées par le programme principal du premier robot. De plus, il 
+	
+	programmeDeuxiemeRobot/
+	Tous les fichiers sont au même niveau et ce répertoire comprend le programme principal
+	du deuxième robot et une classe utilisée par celui-ci.
+	
+
+Finalement, le répertoire diagramme contient des illustrations pour faciliter
+la compréhension de certaines composantes du robot.
