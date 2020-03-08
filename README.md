@@ -2,8 +2,8 @@
 
 ![](robot.jpg)
 
-Ce projet de fin de trimestre exigeait de programmer un robot afin d'effectuer un parcourt.
-Il devait bien suivre la piste, tout en performant diverses actions telles qu'allumer des DELS, émettre des sons, pivoter sur lui-même et recevoir des commandes d'un émetteur infrarouge.
+Ce projet de fin de trimestre exigeait de programmer un robot afin d'effectuer un parcours.
+Il devait suivre la piste, tout en performant diverses actions à des moments spécifiques telles qu'allumer des DELS, émettre des sons, pivoter sur lui-même et recevoir des commandes d'un émetteur infrarouge.
 D'ailleurs, on peut voir le plan de la piste sur l'image en dessous.
 
 ![](presentation.jpg)
